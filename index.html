@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="banner">
+            <h1><span class="cap">F</span>ashion</h1>
+        </div>
+        <div class="text">
+            <p>Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture. The term implies a look defined by the fashion industry as that which is trending.<span id="msg"></span>
+                <button onclick="document.getElementById('msg').innerHTML='Everything that is considered fashion is available and popularized by the fashion system (industry and media).'">Read More...</button>
+            </p>
+        </div>
+        <div class="img-container">
+            <img id="big-img" src="images/fsn3.jpg" alt="">
+        </div>
+        <div class="img-selector">
+            <div class="img-icon" onclick="document.getElementById('big-img').src='images/fsn1.jpg'">
+                <img id="icon1" src="images/fsn1.jpg" alt="">
+            </div>
+            <div class="img-icon" onclick="document.getElementById('big-img').src='images/fsn2.jpg'">
+                <img id="icon2" src="images/fsn2.jpg" alt="">
+            </div>
+            <div class="img-icon" onclick="document.getElementById('big-img').src='images/fsn3.jpg'">
+                <img id="icon3" src="images/fsn3.jpg" alt="">
+            </div>
+            <div class="img-icon" onclick="document.getElementById('big-img').src='images/fsn5.jpg'">
+                <img id="icon4" src="images/fsn5.jpg" alt="">
+            </div>
+            <div class="img-icon" onclick="document.getElementById('big-img').src='images/fsn4.jpg'">
+                <img id="icon5" src="images/fsn4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
